@@ -14,7 +14,7 @@ This plugin was originally commissioned by [ZeGenie Inc] [ze].
 ### Remove
     cordova plugin remove cordova-plugin-ebwebview
 
-Add whis plugin so iOS will use WkWebView with this plugin
+Add this plugin so iOS will use WkWebView with this plugin
 https://github.com/apache/cordova-plugin-wkwebview-engine
 
 ### Method
