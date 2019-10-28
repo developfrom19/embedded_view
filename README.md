@@ -6,6 +6,7 @@ This plugin is different with inappbrowser, You can load html page or external u
 It uses Crosswalk if available
 Opens up to 6 inappBrowsers on screen
 
+***** Removed Crosswalk files from this project. Crosswalk creates error on android build
 ### Background
 This plugin was originally commissioned by [ZeGenie Inc] [ze].
 
