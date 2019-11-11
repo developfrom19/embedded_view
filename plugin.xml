@@ -54,30 +54,5 @@
       <framework src="CoreGraphics.framework" />
     </platform>    
 
-    <!-- android -->
-    <platform name="android">
-      <asset src="www/ebwebview.js" target="js/ebwebview.js"/>
-
-      <config-file target="res/xml/config.xml" parent="/*">
-        <feature name="EbWebview">
-          <param name="android-package" value="com.ebwebview.plugin.InAppBrowserXwalk"/>
-        </feature>
-
-        <preference name="xwalkVersion" default="15+"/>
-        <preference name="xwalkCommandLine" default="--disable-pull-to-refresh-effect"/>
-        <preference name="xwalkMode" default="embedded" />
-        <preference name="xwalkMultipleApk" default="true" />
-      </config-file>
-
-      <config-file target="AndroidManifest.xml" parent="/*">
-        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-      </config-file>
-
-      <source-file src="src/android/InAppBrowserXwalk.java" target-dir="src/com/ebwebview/plugin/"/>
-      <source-file src="src/android/BrowserDialog.java" target-dir="src/com/ebwebview/plugin/"/>
-
-      <!-- <framework src="src/android/xwalk.gradle" custom="true" type="gradleReference"/> -->
-    </platform>
 
 </plugin>
