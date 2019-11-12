@@ -10,14 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/janpekarguru/cordova-plugin-webview"
+    "url": "https://github.com/developfrom19/embedded_view.git"
   },
   "keywords": [
     "cordova",
     "webview",
     "embedded",
     "ecosystem:cordova",
-    "cordova-android",
     "cordova-ios"
   ],
   "engines": [
@@ -26,6 +25,6 @@
       "version": ">=3.1.0"
     }
   ],
-  "author": "jan.pekar@gmail.com",
+  "author": "premm@gmail.com",
   "license": "Apache 2.0"
 }
